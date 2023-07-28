@@ -14,9 +14,23 @@
     justify-content: space-between;
   }
 
+  .search-title {
+    height: 30px;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.093px;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
+  }
+
+  .search,
+  .search-result {
+    width: 516px;
+  }
+
   .search {
     position: relative;
-    width: 516px;
     height: var(--search-height);
     padding-left: 16px;
     display: flex;
